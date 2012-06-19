@@ -1,0 +1,15 @@
+
+== ABSTRACT
+
+As organizations deploy more of their infrastructure into Amazon's Web Services, there is a growing need for guidance on scaling MySQL in the cloud. This presentation will address performance challenges and management issues in the cloud. By the end of the presentation, attendees will understand cloud-specific advantages, scaling challenges and how to achieve high availability on that environment.
+
+== TRACK
+
+Database Administration
+
+== EXPERIENCE LEVEL
+
+Intermediate
+
+== TO DO
+
