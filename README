@@ -17,7 +17,6 @@ http://www.quora.com/Amazon-EBS/What-are-some-tips-for-tuning-EC2-EBS-IO-perform
 http://perfcap.blogspot.com/2011/03/understanding-and-using-amazon-ebs.html
 http://victortrac.com/EC2_Ephemeral_Disks_vs_EBS_Volumes
 http://stu.mp/2009/12/disk-io-and-throughput-benchmarks-on-amazons-ec2.html
-https://forums.aws.amazon.com/thread.jspa?threadID=87815
 http://www.appdynamics.com/solutions-java-monitoring.php
 http://www.whenisfive.com/2012/06/09/performance-tuning-lamp-stack-for-ubuntu-12-04-lts-ec2-instance/
 http://serverfault.com/questions/338262/tuning-javavm-on-aws-ec2
@@ -32,6 +31,8 @@ http://www.webyog.com/blog/2009/11/16/top-10-things-to-know-about-amazon-rds/
 http://stackoverflow.com/questions/4806272/what-are-the-respective-advantages-limitations-of-amazon-rds-vs-ec2-with-mysql
 http://www.mysqlperformanceblog.com/2011/03/15/mysql-on-amazon-rds-part-1-insert-performance/
 http://mysqlha.blogspot.com/2009/10/managed-mysql-amazon-rds.html
+http://www.mysqlperformanceblog.com/2011/02/21/death-match-ebs-versus-ssd-price-performance-and-qos/
+http://aws.amazon.com/elasticache/
 
 == Notes ==
 
