@@ -11,5 +11,20 @@ Database Administration
 
 Intermediate
 
+== Links ==
+
+http://www.quora.com/Amazon-EBS/What-are-some-tips-for-tuning-EC2-EBS-IO-performance
+http://perfcap.blogspot.com/2011/03/understanding-and-using-amazon-ebs.html
+http://victortrac.com/EC2_Ephemeral_Disks_vs_EBS_Volumes
+http://stu.mp/2009/12/disk-io-and-throughput-benchmarks-on-amazons-ec2.html
+https://forums.aws.amazon.com/thread.jspa?threadID=87815
+http://www.appdynamics.com/solutions-java-monitoring.php
+http://www.whenisfive.com/2012/06/09/performance-tuning-lamp-stack-for-ubuntu-12-04-lts-ec2-instance/
+http://serverfault.com/questions/338262/tuning-javavm-on-aws-ec2
+http://serverfault.com/questions/197224/ec2-regular-performance-issues-without-obvious-resource-contention
+http://harish11g.blogspot.com/2012/03/varnish-aws-ec2-performance-tuning.html
+http://postgresql.1045698.n5.nabble.com/tuning-on-ec2-td4341188.html
+http://aws.amazon.com/ec2/instance-types/
+
 == TO DO
 
