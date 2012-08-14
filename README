@@ -25,6 +25,21 @@ http://serverfault.com/questions/197224/ec2-regular-performance-issues-without-o
 http://harish11g.blogspot.com/2012/03/varnish-aws-ec2-performance-tuning.html
 http://postgresql.1045698.n5.nabble.com/tuning-on-ec2-td4341188.html
 http://aws.amazon.com/ec2/instance-types/
+http://aws.amazon.com/about-aws/whats-new/2012/07/31/announcing-provisioned-iops-for-amazon-ebs/
+https://gist.github.com/745635
+http://aws.amazon.com/rds/faqs/
+http://www.webyog.com/blog/2009/11/16/top-10-things-to-know-about-amazon-rds/
+http://stackoverflow.com/questions/4806272/what-are-the-respective-advantages-limitations-of-amazon-rds-vs-ec2-with-mysql
+http://www.mysqlperformanceblog.com/2011/03/15/mysql-on-amazon-rds-part-1-insert-performance/
+http://mysqlha.blogspot.com/2009/10/managed-mysql-amazon-rds.html
+
+== Notes ==
+
+* "CPU Cores" refer to virtual cores because hyperthreading is enabled
+
+*****
+EBS-Optimized Instances: For a low, additional, hourly fee, customers can launch selected Amazon EC2 instances types as “EBS-Optimized” instances. EBS-Optimized instances enable Amazon EC2 instances to fully utilize the IOPS provisioned on an EBS volume. EBS-optimized instances deliver dedicated throughput between Amazon EC2 and Amazon EBS, with options between 500 Mbps and 1000 Mbps depending on the instance type used. When attached to EBS-Optimized instances, Provisioned IOPS volumes are designed to deliver within 10% of their provisioned performance 99.9% of the time. See Amazon EC2 Instance Types to find out more about instance types that can be launched as EBS-optimized instances.
+*****
 
 == TO DO
 
