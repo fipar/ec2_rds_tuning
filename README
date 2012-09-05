@@ -44,3 +44,84 @@ EBS-Optimized Instances: For a low, additional, hourly fee, customers can launch
 
 == TO DO
 
+1. Intro
+2. tag cloud of amazon buzzwords
+3. why the cloud
+4. what they don't tell you.
+
+availability zones (HA)
+chaos monkey (link)
+http://status.aws.amazon.com/
+elastic IP?
+2012 ec2 outages
+
+*********** what we care about ***********
+
+ec2
+Mi/S/(HC)Me/L/Me(HC)XL/HMXL/HMXXL/HMXXXXL/
+ebs
+CloudFront
+RDS
+Standard vs. Multi-AZ
+
+    Micro DB Instance$0.025
+Small DB Instance$0.105
+Large DB Instance$0.415
+Extra Large DB Instance$0.830
+High-Memory DB Instance Class
+        Extra Large DB Instance$0.585
+Double Extra Large DB Instance$1.170
+        Quadruple Extra Large DB Instance$2.340 - $1600/mo
+
+ElastiCache
+
+
+
+
+
+    
+
+************************
+
+http://www.mysqlperformanceblog.com/2011/06/09/how-to-replace-a-ndb-node-on-ec2/
+http://www.mysqlperformanceblog.com/2012/05/16/benchmarking-single-row-insert-performance-on-amazon-ec2/
+http://www.mysqlperformanceblog.com/2010/06/17/high-availability-for-mysql-on-amazon-ec2-part-1-intro/
+
+
+
+
+
+
+
+
+************************
+
+Ryan: kelp you did some writeup about the cost-benefit-analysis of ec2 some time ago, right?
+[10:50am] Ryan: do you have a link for that?
+[10:50am] kelp: I made a spread sheet of it at my old job
+[10:50am] kelp: but I don't have anything sharable
+[10:50am] Ryan: gotcha.
+[10:51am] kelp: but I could come up with something again if you need info
+[10:51am] Ryan: only if it's off the top of your head.  i'm just curious 
+[10:52am] kelp: at zoosk we had about 25 server racks, and we're paying too much for our datacenter space
+[10:52am] kelp: buying that, and paying a couple of people to manage it
+[10:52am] kelp: still ended up cheaper after about a year
+[10:52am] kelp: and you keep the hardware about 3 years
+[10:53am] Ryan: the tipping point was like 30 racks?
+[10:53am] kelp: the tipping point is mostly just time
+[10:53am] kelp: I could probably work up another spread sheet
+[10:53am] kelp: to compare squares use
+[10:54am] Ryan: lol no chance we could use ec2 
+[10:54am] kelp: 1) we'd have to convince infosec
+[10:54am] kelp: 2) all the other reasons
+[10:56am] kelp: it would be really intersting to do the math with the SSD instances
+[10:56am] Ryan: haha yup.
+[11:00am] kelp: we'd almost certainly have to shard square/web
+[11:00am] kelp: largest instance is 60GB of RAM
+[11:06am] kelp: crazy, reserved pricing is SOOO much cheaper than on demand pricing
+[11:11am] kelp: with reserved pricing, aws isn't nearly as expensive as I thought
+[11:11am] kelp: I should really redo my model and see how it comes out
+[11:11am] kelp: the big issue is the high IO ones only exist in virginia and ireland, and we certainly need those
+[11:14am] kelp: ah, but we could do EBS volumes with provisioned IOPs in about any location
+
+
