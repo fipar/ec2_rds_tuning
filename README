@@ -117,7 +117,7 @@ Ryan: kelp you did some writeup about the cost-benefit-analysis of ec2 some time
 [10:50am] Ryan: gotcha.
 [10:51am] kelp: but I could come up with something again if you need info
 [10:51am] Ryan: only if it's off the top of your head.  i'm just curious 
-[10:52am] kelp: at zoosk we had about 25 server racks, and we're paying too much for our datacenter space
+[10:52am] kelp: at XXX we had about 25 server racks, and we're paying too much for our datacenter space
 [10:52am] kelp: buying that, and paying a couple of people to manage it
 [10:52am] kelp: still ended up cheaper after about a year
 [10:52am] kelp: and you keep the hardware about 3 years
