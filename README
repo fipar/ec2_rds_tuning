@@ -11,6 +11,44 @@ Database Administration
 
 Intermediate
 
+== Slides
+
+***** Availability Zones *****
+
+Eight Global Locations
+
+US (x3)
+EU (Ireland)
+Asia Pacific (Singapore, Tokyo)
+South America (Sao Paulo)
+AWS GovCloud (US Gov't & Contractors)
+
+***** Availability Zones *****
+
+- Different Performance Characteristics
+- Different Hardware
+- Different Pricing
+
+***** Availability Zones (Strategy) *****
+
+Split services (hot-hot) between US-EAST & US-WEST
+NEED MORE
+
+***** Instance Types *****
+
+Micro DB Instance$0.025
+Small DB Instance$0.105
+Large DB Instance$0.415
+Extra Large DB Instance$0.830
+High-Memory DB Instance Class
+Extra Large DB Instance$0.585
+Double Extra Large DB Instance$1.170
+Quadruple Extra Large DB Instance$2.340 - $1600/mo
+
+***** Instance Costs *****
+
+***** Costs of comparable Physical Servers *****
+
 == Links ==
 
 http://www.quora.com/Amazon-EBS/What-are-some-tips-for-tuning-EC2-EBS-IO-performance
@@ -62,37 +100,13 @@ Mi/S/(HC)Me/L/Me(HC)XL/HMXL/HMXXL/HMXXXXL/
 ebs
 CloudFront
 RDS
-Standard vs. Multi-AZ
-
-    Micro DB Instance$0.025
-Small DB Instance$0.105
-Large DB Instance$0.415
-Extra Large DB Instance$0.830
-High-Memory DB Instance Class
-        Extra Large DB Instance$0.585
-Double Extra Large DB Instance$1.170
-        Quadruple Extra Large DB Instance$2.340 - $1600/mo
-
 ElastiCache
-
-
-
-
-
-    
 
 ************************
 
 http://www.mysqlperformanceblog.com/2011/06/09/how-to-replace-a-ndb-node-on-ec2/
 http://www.mysqlperformanceblog.com/2012/05/16/benchmarking-single-row-insert-performance-on-amazon-ec2/
 http://www.mysqlperformanceblog.com/2010/06/17/high-availability-for-mysql-on-amazon-ec2-part-1-intro/
-
-
-
-
-
-
-
 
 ************************
 
